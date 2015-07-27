@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang ="en"> 
+	<head> 
+		  <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="description" content="Guessing Game Part 1">
+      <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+      <script src="bootstrap.min.js"></script>
+      <script type = "text/javascript" src = "guess.js"></script>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+      <style>
+      body {
+        background-image: url(https://universalmatrixconsciousness.files.wordpress.com/2015/01/remarkable-matrix-wallpaper-for-laptop-hd-matrix-wallpaper-wallpapers-for-mobile-1080p-android-laptop-windows-7-mac-1366x768-iphone-nature.jpg) 
+      }
+      h1 {
+        text-align: center; 
+        color: red;
+        font-family: Impact, Charcoal, sans-serif;
+      }
+
+      #input_style {
+        margin: 5px 250px 50px 385px; 
+        text-align: center; 
+        background-color: white; 
+        border: transparent; 
+        color: red
+      }
+
+      #thumbnail1 {
+        background-color: transparent; 
+        border: 0px transparent
+      }
+
+      #buttonedUP{
+        margin:0px 50px 45px 495px; 
+        background: black; 
+        color: white; 
+        font-weight: thick
+      }
+      </style>
+</head>
+   <body>
+    <div class ="container">
+      <div style ="background-color: transparent" class="jumbotron">
+   			<h1 class="change" style = "color:white">Guessing Game</h1> 
+      </div>
+          <div class="row">
+          <div class="col-md-4">
+          <input id = "input_style" type="text" placeholder="ENTER A VALUE BETWEEN 1 AND A 100" class="form-control"> </div>
+          <div class="row">
+          <div style="margin: 35px 150px 50px 200px" class="col-md-8">
+               <button id = "submit_guess" type='button'  class="btn btn-info btn-lg btn-block">Submit Your Guess</button> 
+               <button id = "Hint" type="button" class="btn btn-active btn-lg btn-block">Receive a Hint</button>
+               <button id = "reset" type="button" class="btn btn-danger btn-lg btn-block">Reset</button>
+          </div>
+          <div class="row"> 
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+                 <div id = "thumbnail1" class="thumbnail">
+                   <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/44/s300/fullstack-academy.png" alt="...">   
+                   <button id = "buttonedUP" type="button" class="btn btn-active btn-lg">5 Guesses Remaining</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  </body>   
+</html>
+
+
+
+
